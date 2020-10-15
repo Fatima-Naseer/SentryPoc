@@ -12,10 +12,10 @@ const Source: () => React$Node = () => {
     })();
   });
   const crashTry = () => {
-    throw new Error('My first adnan error!');
+    throw new Error('Hey error!');
   };
   return <Button title="Crash App" color="green" onPress={crashTry} />;
 };
 
 export default Source;
-//# sourceMappingURL=source.js.map
+//# sourceMppingURL=source.js.map
